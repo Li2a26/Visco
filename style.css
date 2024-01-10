@@ -1,0 +1,25 @@
+.pepsi {
+    background-image: url('images/flower.jpg');
+    background-repeat: no-repeat;
+     height: 100vh; 
+     background-position: center;
+   
+  
+}
+
+.container {
+    display: flex;
+}
+.box1 {
+    background-color: blue;
+    width: 50%;
+    margin-top:250px;    
+}
+.box2 {
+    background-color: black;
+    width:40%;
+    z-index: -1;
+    margin-left: 400px;
+    margin-top: 250px;
+}
+
