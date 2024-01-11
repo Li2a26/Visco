@@ -2,9 +2,11 @@
     background-image: url('images/flower.jpg');
     background-repeat: no-repeat;
      height: 100vh; 
-     background-position: center;
-   
-  
+     background-position: center; 
+}
+
+.paragraph-container{
+    display: flex;
 }
 
 .container {
@@ -22,4 +24,44 @@
     margin-left: 400px;
     margin-top: 250px;
 }
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.card { 
+   padding: 20px;
+   width: 420px;
+   height: 150px;
+   box-sizing: border-box;
+   background-color: #061c2c;
+  flex: 0 0 30%;
+   justify-content: space-between;
+}
+.paragraph {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+.writting {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: left;
+    letter-spacing: normal;
+    color: #ffffff;
 
+}
+.card1-container{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.card-orange {
+    background-color: #244ac2;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: normal;
+   
+   
+}
