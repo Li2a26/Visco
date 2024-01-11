@@ -1,3 +1,4 @@
+
 .pepsi {
     background-image: url('images/flower.jpg');
     background-repeat: no-repeat;
@@ -58,10 +59,10 @@
 }
 .card-orange {
     background-color: #244ac2;
+}
+.fund {
     color: #ffffff;
     font-size: 14px;
     line-height: 38px;
-    letter-spacing: normal;
-   
-   
-}
+    letter-spacing: normal;   
+}   
