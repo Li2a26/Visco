@@ -1,4 +1,17 @@
-
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans , sans-serif';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav img {
+    height: 45px;
+}
 .pepsi {
     background-image: url('images/flower.jpg');
     background-repeat: no-repeat;
@@ -8,6 +21,10 @@
 
 .paragraph-container{
     display: flex;
+}
+img {
+    width: 100%;
+    height: auto;
 }
 
 .container {
@@ -32,12 +49,16 @@
 }
 .card { 
    padding: 20px;
-   width: 420px;
+   width: 400px;
    height: 150px;
    box-sizing: border-box;
    background-color: #061c2c;
   flex: 0 0 30%;
    justify-content: space-between;
+}
+.card img {
+    width: 65px;
+    height:30%;
 }
 .paragraph {
     max-width: 600px;
@@ -50,6 +71,7 @@
     text-align: left;
     letter-spacing: normal;
     color: #ffffff;
+    margin-bottom: 200px;
 
 }
 .card1-container{
@@ -59,6 +81,17 @@
 }
 .card-orange {
     background-color: #244ac2;
+    display: flex;
+    align-items: space-evenly;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    padding-left: 10px;
+    height: 30px;
+}
+.card-orange img {
+    width: 30px;
+    height: 25px;
 }
 .fund {
     color: #ffffff;
@@ -66,3 +99,4 @@
     line-height: 38px;
     letter-spacing: normal;   
 }   
+
