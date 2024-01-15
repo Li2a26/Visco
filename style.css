@@ -13,7 +13,7 @@ nav img {
     height: 45px;
 }
 .pepsi {
-    background-image: url('images/flower.jpg');
+    /* background-image: url('images/flower.jpg'); */
     background-repeat: no-repeat;
      height: 100vh; 
      background-position: center; 
@@ -31,17 +31,42 @@ img {
     display: flex;
 }
 .box1 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background-color: #244ac2;
+    color: white;
+    padding: 10px;
+    z-index: 9999;
+    width: 30%; 
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.box2 {
+    position: absolute;
+    z-index: -1; 
+    background-color: black;
+    width: 35%;
+    height:11% ;
+    top: 0;
+    right: 0;
+    margin-top: 180px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+/* .box1 {
     background-color: blue;
     width: 50%;
     margin-top:250px;    
-}
-.box2 {
-    background-color: black;
+}*/
+/* .paragraph-svg{
     width:40%;
     z-index: -1;
     margin-left: 400px;
     margin-top: 250px;
-}
+}  */
 .card-container{
     display: flex;
     justify-content: space-between;
@@ -60,10 +85,22 @@ img {
     width: 65px;
     height:30%;
 }
+
+
+
 .paragraph {
-    max-width: 600px;
+    max-width: 650px;
     display: flex;
-    justify-content: center;
+  font-size: 22px;
+  line-height: 36px;
+  font-family: 'Open Sans , sans-serif';
+  z-index: 1;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.paragraph.svg {
+    margin: 20px;
+    padding-top: 5px;
 }
 .writting {
     font-size: 22px;
@@ -79,7 +116,7 @@ img {
     justify-content: space-between;
     margin:20px;
 }
-.card-orange {
+/* .card-orange {
     background-color: #244ac2;
     display: flex;
     align-items: space-evenly;
@@ -92,11 +129,92 @@ img {
 .card-orange img {
     width: 30px;
     height: 25px;
-}
+   padding-left: 50px;
+   margin-bottom: 50px;
+    } */
+    .card-orange  {
+        background-color: #244AC2;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        width: 11%;
+        margin: 10px;
+        
+        font-size: 13px;
+    }
+    
+    .card-orange img {
+        height: 20px;
+        margin-left: auto;
+        margin-top: 5px;
+    }
+    
+
 .fund {
     color: #ffffff;
     font-size: 14px;
-    line-height: 38px;
+    /* line-height: 38px; */
     letter-spacing: normal;   
 }   
+#slider-container {
+    position: relative;
+    width: 100%;
+    display: inline;
+    
+
+  }
+
+  #slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slide{
+    min-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+  }
+
+  .slide img {
+    width: 50%;
+    height: 50vh;
+   
+  }
+
+
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+  }
+
+  #prev-btn {
+    left: 0;
+  }
+
+  #next-btn {
+    right: 0;
+  }
+
+  #slide-buttons {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .slide-btn {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
